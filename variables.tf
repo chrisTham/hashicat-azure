@@ -11,7 +11,7 @@ variable "prefix" {
 
 variable "location" {
   description = "The region where the virtual network is created."
-  default     = "Australia Southeast"
+  default     = "australiasoutheast"
 }
 
 variable "address_space" {
