@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "example" {
   name     = "${var.prefix}-network-rg"
-  location = "var.location"
+  location = var.location
 }
 
 module "network" {
